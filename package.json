@@ -1,0 +1,19 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sender": "node hello_world/sender.js",
+    "receiver": "node hello_world/receiver.js",
+    "new_task" : "node work_queues/new_task.js",
+    "worker1": "node work_queues/worker1.js",
+    "worker2": "node work_queues/worker2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
