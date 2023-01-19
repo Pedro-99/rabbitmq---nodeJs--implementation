@@ -8,7 +8,10 @@
     "receiver": "node hello_world/receiver.js",
     "new_task" : "node work_queues/new_task.js",
     "worker1": "node work_queues/worker1.js",
-    "worker2": "node work_queues/worker2.js"
+    "worker2": "node work_queues/worker2.js",
+    "publish": "node pub_sub/emit_log.js",
+    "subscribe_1": "node pub_sub/receive_log.js",
+    "subscribe_2": "node pub_sub/receive_log2.js"
   },
   "keywords": [],
   "author": "",
