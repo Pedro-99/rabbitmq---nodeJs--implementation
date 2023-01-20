@@ -11,7 +11,10 @@
     "worker2": "node work_queues/worker2.js",
     "publish": "node pub_sub/emit_log.js",
     "subscribe_1": "node pub_sub/receive_log.js",
-    "subscribe_2": "node pub_sub/receive_log2.js"
+    "subscribe_2": "node pub_sub/receive_log2.js",
+    "send": "node routing/emit_log_direct.js",
+    "receive1": "node routing/receive_logs_direct.js",
+    "receive2": "node routing/receive_2_log_direct.js"
   },
   "keywords": [],
   "author": "",
